@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <link rel="stylesheet" type="text/css" href="web-styles.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Titanium : RP Info</title>
+
+    <link href="/Bootstraps/cssboot.css" rel="stylesheet">   
+    <link href="/Bootstraps/fontboot.css" rel="stylesheet">   
+    <script src="/Bootstraps/jsboot.js"></script>   
+  
+    <style>
+        body{
+          background-image: url('Memes/Background.png');
+          background-size: cover;
+          background-position: top;
+          background-color: rgb(25, 28, 34);
+        }
+        p {
+          font-size: 17px;
+          color: aliceblue;
+        }
+        h1 {
+          font-size: 50px;
+          text-align: center;
+          font-weight: bolder;
+          color: white;
+        }
+        h2 {
+          text-align: center;
+          font-weight: bolder;
+          color: white;
+        }
+    </style>
+  </head>
+
+  <header>
+    <div style="text-align: -center;">
+      <hr>
+      <h2>Props <var>Hub</var></h2>
+    </div>
+  </header>
+
+  <main style="margin-top: 10vmin;">
+
+    <div class="text-center container">             
+      <h1 class="fw-dark">Material Info?<hr style="opacity: 1;"></h1>   
+      <br>       
+      <p style="color: white;">
+        <strong style="font-size: 25px;">Props </strong><var style="font-weight: bolder">Hub</var> Material info section contains the materials needed to complete set of props listed in props section along with its estimated cost.
+      </p>                   
+      <br>
+      <div class="container">
+        <div class="row row-cols-md-1 row-cols-sm-3 row-cols-md-2 g-4">
+          
+          <div class="col">
+            <div style="background-image: url(Memes/req.png);" class="card-body box">
+              <div class="grad">
+                <button onclick="cl_right()" class="button">INFO</button> 
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div style="background-image: url(Memes/props.png);" class="card-body box">
+              <div class="grad">
+                <button onclick="cl_mid()" class="button">PROPS</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div style="background-image: url(Memes/home.png);" class="card-body box">
+              <div class="grad">
+                <button onclick="cl_left()" class="button">Home</button>
+              </div>
+            </div>
+          </div>
+          
+          <script>
+            function cl_right() {
+              window.location.replace("info.html")
+            }
+            function cl_mid() {
+              window.location.replace("props.html")
+            }
+            function cl_left() {
+              window.location.replace("index.html")
+            }
+          </script>
+
+        </div><br>
+
+        <div class="card shadow-lg bg-dark ltxt"> 
+          <div class="card-body">
+            <p class="card-text"><strong>COLLECTED ₱: </strong><var class="indexed">300₱</var><var class="local">→ 200₱</var></var></p>
+          </div>
+        </div>
+
+        <br>
+      </div>
+
+      <div class="container ltxt">
+        <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 g-4">
+          
+          <div class="card shadow-lg bg-dark ltxt"> 
+            <div class="card-body">
+              <p class="card-text">
+                <strong>EXPENSES:</strong>
+              </p>
+              
+              <div class="container ltxt">
+                <div class="row row-cols- row-cols-sm-2 row-cols-md-2 g-3 g-3">
+                    
+                  <div class="card shadow-sm bg-dark">                       
+                    <p class="card-text">
+                      <strong>Spray Paint (Red)</strong>
+                      <br>
+                      <var class="local">35₱</var><strong> x1 (1pc)</strong><br>
+                      - Used for spraying props that have a red tint / color in it.     
+                    </p> 
+                    <hr class="done"> 
+                  </div>                  
+
+                  <div class="card shadow-sm bg-dark">                       
+                    <p class="card-text">
+                      <strong>2x2 Wood (Straight)</strong>
+                      <br>
+                      <var class="local">115₱</var><strong> x2 (1pc)</strong><br>   
+                      - Could be used for the usage of hard-in-nature props                       
+                    </p> 
+                    <hr class="undone"> 
+                  </div>
+
+                  <div class="card shadow-sm bg-dark">                       
+                    <p class="card-text">
+                      <strong>1x1 Wood (Straight / Clean)</strong>
+                      <br>
+                      <var class="local">10₱ ~ 20₱</var><strong> x4 (3pc)</strong><br>       
+                      - Specifically used for Swords, guns, rifles, and other props requiring long wooden structural integrity                  
+                    </p> 
+                    <hr class="undone"> 
+                  </div>
+
+                  <div class="card shadow-sm bg-dark">                       
+                    <p class="card-text">
+                      <strong>Cardboard (Flat / Clean)</strong>
+                      <br>
+                      <var class="local">5₱ ~ 10₱</var><strong> x15 ~ 20 (3pc)</strong><br>        
+                      - Main body component for most props as it is used for baseline form              
+                    </p> 
+                    <hr class="undone"> 
+                  </div>
+
+                  <div class="card shadow-sm bg-dark">                       
+                    <p class="card-text">
+                      <strong>BBQ Stick (Flat / Clean)</strong>
+                      <br>
+                      <var class="local">0.50₱ ~1₱</var><strong> x50 (23pc)</strong><br>     
+                      - Strengthen props that have Small / Thin surface area such as the end of rifles.                
+                    </p> 
+                    <hr class="undone"> 
+                  </div>
+
+                  <div class="card shadow-sm bg-dark">                       
+                    <p class="card-text">
+                      <strong>Glue Sticks</strong>
+                      <br>
+                      <var class="local">5₱</var><strong> x10 ~ 15 (5pc) </strong><br>  
+                      - Used for Glue Guns                   
+                    </p> 
+                    <hr class="undone"> 
+                  </div>
+
+                  <div class="card shadow-sm bg-dark">                       
+                    <p class="card-text">
+                      <strong>Paints 30ml (4 Color)</strong>
+                      <br>
+                      <var class="local">15₱ ~ 20₱</var><strong> x4</strong><br>     
+                      - Used for the colorization of Props
+                    </p> 
+                    <hr class="none"> 
+                  </div>
+
+                  <div class="card shadow-sm bg-dark">                       
+                    <p class="card-text">
+                      <strong>Tape (Sm & Lg)</strong>
+                      <br>
+                      <var class="local">23₱ ~ 50₱</var><strong> x2 </strong><br>  
+                      - Used to further strengthen props                   
+                    </p> 
+                    <hr class="none"> 
+                  </div>
+
+                  <div class="card shadow-sm bg-dark">                       
+                    <p class="card-text">
+                      <strong>Glue Gun</strong>
+                      <br>
+                      <var class="local">60₱ ~ 100₱+</var><strong> x1 </strong><br>  
+                      - Very useful tool for glueing together pieces of props                   
+                    </p> 
+                    <hr class="none"> 
+                  </div>                  
+
+                </div>
+              </div>
+            </div>
+          </div>    
+
+        <hr>
+      </div>
+    </div>
+  </main>
+</html>
+

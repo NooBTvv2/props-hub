@@ -8,8 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Titanium : Props 21-30</title>
 
-    <link href="Bootstraps/cssboot.css" rel="stylesheet">   
-    <script src="Bootstraps/jsboot.js"></script>   
+    <link href="/Bootstraps/cssboot.css" rel="stylesheet">   
+    <script src="/Bootstraps/jsboot.js"></script>   
   
     <style>
         body{
@@ -48,12 +48,12 @@
       <h1 class="fw-dark">Props Section<hr style="opacity: 1;"></h1>   
       <br>       
       <div class="container">
-        <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 g-4">
+        <div class="row row-cols-md-1 row-cols-sm-3 row-cols-md-2 g-4">
           
           <div class="col">
             <div style="background-image: url(Memes/req.png);" class="card-body box">
               <div class="grad">
-                <button onclick="cl_right()" class="button"> <br><br><br><br>INFO<br><br></button> 
+                <button onclick="cl_right()" class="button">INFO</button> 
               </div>
             </div>
           </div>
@@ -61,7 +61,15 @@
           <div class="col">
             <div style="background-image: url(Memes/home.png);" class="card-body box">
               <div class="grad">
-                <button onclick="cl_left()" class="button"> <br><br><br><br>HOME<br><br></button>
+                <button onclick="cl_mid()" class="button">HOME</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div style="background-image: url(Memes/props.png);" class="card-body box">
+              <div class="grad">
+                <button onclick="cl_left()" class="button">ITEMS</button>
               </div>
             </div>
           </div>
@@ -70,8 +78,11 @@
             function cl_right() {
               window.location.replace("info.html")
             }
-            function cl_left() {
+            function cl_mid() {
               window.location.replace("index.html")
+            }
+            function cl_left() {
+              window.location.replace("list.html")
             }
           </script>
 
